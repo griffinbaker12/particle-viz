@@ -2,7 +2,9 @@
 
 A physics-based particle simulation built with LÖVE2D (Love2D) and Lua. Particles interact with each other and respond to mouse movements with colorful trails, sparks, and glowing effects.
 
-<video src="assets/demo.mp4" width="800" autoplay loop muted playsinline></video>
+
+https://github.com/user-attachments/assets/1c51442d-ee10-46cf-b074-adf418a5f67d
+
 
 ## Features
 
