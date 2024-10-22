@@ -2,7 +2,7 @@
 
 A physics-based particle simulation built with LÖVE2D (Love2D) and Lua. Particles interact with each other and respond to mouse movements with colorful trails, sparks, and glowing effects.
 
-![Particle Visualizer Demo](assets/demo.mp4)
+<video src="assets/demo.mp4" width="800" autoplay loop muted playsinline></video>
 
 ## Features
 
@@ -19,19 +19,36 @@ A physics-based particle simulation built with LÖVE2D (Love2D) and Lua. Particl
 
 ## Installation
 
-1. Install LÖVE2D from https://love2d.org/ or
-2. Clone this repository:
+### macOS
+
+The easiest way to install on macOS is using Homebrew:
 
 ```bash
-git clone https://github.com/griffinbaker12/particle-viz.git
+brew install love
 ```
 
+### Other Systems
+
+- Windows/Linux: Download and install LÖVE2D from https://love2d.org/
+
 ## Running the Project
+
+Clone this repository:
+
+```bash
+git clone https://github.com/yourusername/particle-viz.git
+```
 
 Navigate to the project directory and run:
 
 ```bash
 love .
+```
+
+Or on macOS, you can also run:
+
+```bash
+/Applications/love.app/Contents/MacOS/love .
 ```
 
 ## Controls
@@ -47,8 +64,12 @@ particle-viz/
 ├── main.lua           # Entry point and game loop
 ├── src/
 │   ├── constants.lua  # Configuration and constants
-│   └── particle.lua   # Particle physics and rendering
-├── demo.gif           # Demo animation
+│   ├── particle.lua   # Particle physics and rendering
+│   ├── physics.lua    # Physics calculations
+│   ├── simulation.lua # Simulation logic
+│   └── viz.lua        # Visualization components
+├── assets/
+│   └── demo.mp4       # Demo video
 └── README.md
 ```
 
@@ -73,3 +94,11 @@ particle-viz/
 
 - Built with [LÖVE2D](https://love2d.org/)
 - Color palette inspired by Tokyo Night theme
+
+## License
+
+[MIT License](LICENSE)
+
+## Contributing
+
+Feel free to submit issues, fork the repository, and create pull requests for any improvements.
