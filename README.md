@@ -38,19 +38,13 @@ brew install love
 Clone this repository:
 
 ```bash
-git clone https://github.com/yourusername/particle-viz.git
+git clone https://github.com/griffinbaker12/particle-viz.git
 ```
 
 Navigate to the project directory and run:
 
 ```bash
 love .
-```
-
-Or on macOS, you can also run:
-
-```bash
-/Applications/love.app/Contents/MacOS/love .
 ```
 
 ## Controls
@@ -63,16 +57,14 @@ Or on macOS, you can also run:
 
 ```
 particle-viz/
-├── main.lua           # Entry point and game loop
-├── src/
-│   ├── constants.lua  # Configuration and constants
-│   ├── particle.lua   # Particle physics and rendering
-│   ├── physics.lua    # Physics calculations
-│   ├── simulation.lua # Simulation logic
-│   └── viz.lua        # Visualization components
+├── LICENSE
+├── README.md
 ├── assets/
 │   └── demo.mp4       # Demo video
-└── README.md
+├── main.lua           # Entry point and game loop
+└── src/
+    ├── constants.lua  # Configuration and constants
+    └── particle.lua   # Particle physics and rendering
 ```
 
 ## Physics Features
